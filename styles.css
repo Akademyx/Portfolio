@@ -1,0 +1,205 @@
+#wrapper {
+    min-height:300px;
+    width: 900px;
+    background-color: green;
+    display: block;
+}
+#heading{
+    width: auto;
+    height: 50px;
+    display: block;
+    background-color: white;
+    padding: 5px;
+}
+.headliner{
+    min-width:5px;
+    /* background-color: blue; */
+    display:inline-block;
+}
+.headliner2{
+    display: inline-block;
+    /* background-color: purple; */
+    min-width: 5px;
+    padding: 5px;
+    text-align: right;
+    margin-left: 338px;
+    margin-bottom: 10px;
+}
+h2{
+    margin-bottom:10px;
+}
+h1{
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left: 15px;
+}
+#canvas{
+    background-color:#6f5964;
+    /* height:700px;
+    width: auto; */
+    display: block;
+    padding:10px;
+    min-height:890px;
+}
+#profile{
+    display: block;
+    text-align:center;
+}
+.photo{
+    height: 265px;
+    width:330px;
+    margin-right:20px;
+    display:inline-block;
+    background-image:url('Portfolio_images/photo_of_me.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 2px solid grey;
+    vertical-align:top;
+}
+h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: middle;
+    padding-top: 11px;
+    padding-left: 14px;
+    font-size: 24px;
+    color: white;
+}
+.aboutMe{
+    height: 265px;
+    width: 450px;
+    display: inline-block;
+    background-color: lightblue;
+}
+.pcontent{
+    margin:0;
+}
+.content{
+    padding: 5px;
+    text-align: left;
+    min-height: 100px;
+
+}
+
+#content{
+    /* text-align:center; */
+    /* -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines; */
+    display: block;
+    min-height: 300px;
+    width: auto; 
+    padding: 25px;
+}
+
+.posts{
+    height: 500px;
+    width: 250px;
+    display: inline-block;
+    background-color: red;
+    vertical-align: top;
+}
+#post2{
+    margin-left: 25px;
+    margin-right: 25px;
+    vertical-align: top;
+}
+
+.pName{
+    display:block;
+    background-color: grey;
+    height: 50px;
+    text-align: left;
+    padding: 2px 0;
+}
+.pImage{
+    height:130px;
+    display: block;
+}
+p{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.pic1{
+    /* height: auto;
+    width: auto; */
+    background-size: 100% 100%;
+    background-image: url('Portfolio_images/lamode.png');
+    background-repeat: no-repeat;
+}
+.pic2{
+    background-size: 100% 100%;
+    background-image: url('Portfolio_images/familycontacts.png');
+    background-repeat:no-repeat;
+}
+.pic3{
+    background-size: 100% 100%;
+    background-image: url('Portfolio_images/fiveEleven.png');
+    background-repeat:no-repeat;
+}
+
+h3{
+    margin:0 0;
+}
+
+.wcontent{
+    height:210px;
+    width:auto;
+    background-color:white;
+    text-align: left;
+    padding: 10px;
+}
+.tech{
+    display:block;
+    min-height: 20px;
+    background-color: grey;
+    padding: 0 5px;
+}
+.techImg{
+    min-height:5px;
+    width: auto;
+    background-color:lightgreen;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.techImg > img {
+    height: 40px;
+}
+
+#footer{
+    width: auto;
+    height: 50px;
+    display: block;
+    background-color: white;
+}
+.buttons{
+    text-align:center;
+    padding:10px;
+}
+button{
+    text-align: center;
+    background-color: green;
+    vertical-align: middle;
+    border-radius: 8px;
+    border-color: black;
+    color: white;
+    padding: 5px;
+}
+
+#footer > div > p{
+    text-align:center;
+}
+#upper{
+    height:50%;
+    background-color: white;
+}
+
+#lower{
+    height:50%;
+    background-color: white;
+    text-align: center;
+}
+#lower > img {
+    height:80%;
+}
